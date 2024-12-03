@@ -1,0 +1,18 @@
+<view class='apply-table'>
+	<view class='apply-title'>反馈信息</view>
+	<view class="apply-item">
+		<view class="apply-item-title">反馈内容：</view>
+		<view class="item-content">{{data.content}}</view>
+	</view>
+	<view class="apply-item">
+		<view class="apply-item-title">反馈时间：</view>
+		<view class="item-content">{{data.createTime}}</view>
+	</view>
+
+	<view class="apply-item">
+		<view class="apply-item-title">回复内容：</view>
+		<view class="item-content" wx:if="{{data.replyContent != null}}">{{data.replyContent}}</view>
+    <view class="item-content" wx:else>?</view>
+	</view>
+	<image src='/images/bi.png' class="header-icon"></image>
+</view>

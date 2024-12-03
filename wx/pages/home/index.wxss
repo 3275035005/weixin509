@@ -1,0 +1,138 @@
+/**首页样式**/
+/* 顶部搜索框 */
+/* # 是通过id查找 ； 在微信小程序中使用的单位是rpx，1pt=1px=2rpx*/
+#searchOuterView{
+	padding: 15rpx;
+  }
+  #searchInnerView{
+	text-align: center;
+	width: 720rpx;
+	height: 58rpx;
+	background: #eeeeee;
+	border: 2rpx solid #FFFFFF;
+	border-radius: 8rpx;
+	line-height: 58rpx;
+	box-sizing: border-box; /* 设置边框包含在宽高之内 */
+  }
+  #searchInnerView > image{
+	 height: 29rpx;
+	width: 29rpx;
+	vertical-align: middle; /* 设置图片对齐方式 */
+  }
+  #searchInnerView > text{
+	font-size: 24rpx;
+	color: #B1B1B1;
+  }
+  
+.BiaoTi{
+	width: 400rpx;
+	height: 50rpx;
+	display: inline;
+}
+
+.home_ZhongBu {
+	padding-top: 35rpx;
+	border: 25rpx;
+	display: flex;
+  }
+  .home_ZhongBu_zong {
+	width: 300rpx;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+  }
+  .home_ZhongBu_image1 {
+	width: 60rpx;
+	height: 60rpx;
+  }
+  .home_ZhongBu_image2 {
+	width: 60rpx;
+	height: 60rpx;
+  }
+  .home_ZhongBu_image3 {
+	width: 60rpx;
+	height: 60rpx;
+  }
+  .home_ZhongBu_image4 {
+	width: 60rpx;
+	height: 60rpx;
+  }
+  .home_ZhongBu_image5 {
+	width: 60rpx;
+	height: 60rpx;
+  }  
+  .home_ZhongBu_image6 {
+	width: 60rpx;
+	height: 60rpx;
+  }
+  .home_ZhongBu_text {
+	margin-top: 20rpx;
+	font-size: 32rpx;
+	color: rgb(38, 96, 143);
+  }
+  
+  
+  .home_FanKui {
+  width: 100%;
+  }
+  .home_FanKui_button {
+	margin-top:40rpx;
+	width:80%!important;
+	padding:5px!important;
+	background-color: rgb(25, 182, 77);
+	color: white;
+	font-size: 14px;
+	border-radius: 98rpx;
+  }
+  
+  .home_science_title {
+  margin-top: 10px;
+  }
+  .home_science_text {
+	text-align: left;
+	font-size: 13px;
+  }
+  .home_science_all {
+	color: rgb(201, 201, 201);
+	display: inline;
+	float: right;
+	font-size: 12px;
+	margin-top: 6px;
+  }
+  
+  .home_science1 {
+	background-color:null;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  }
+	.home_science_image1 {
+	  margin-top: 10px;
+	  width: 90%;  
+	  border-radius: 5px;       
+	}
+	.home_science_text1 {
+	  text-align: center;
+	  margin-top: 5px;
+	  font-size: small;
+	}
+  
+  .home_science2 {
+	background-color:null;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+  }
+	.home_science_image2 {
+	  margin-top: 15px;
+	  width: 90%;   
+	  border-radius: 5px;      
+	}
+	.home_science_text2 {
+	  text-align: center;
+	  margin-top: 5px;
+	  font-size: small;
+	}
+  
+  
+  

@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-picker": "@vant/weapp/picker/index",
+    "ye-tab": "../../components/tab/tab",
+    "van-tag": "@vant/weapp/tag/index"
+  },
+  "navigationBarTitleText": "反馈记录"
+  
+}

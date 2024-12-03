@@ -1,0 +1,38 @@
+<!-- logo -->
+<view class="login_logo flex center">
+  英语词典小程序
+</view>
+<!-- logo -->
+
+
+<!-- 登录 -->
+<block>
+
+    <!-- form -->
+    <view class="login_form">
+        <view class="login_form__item">
+            <input type="text" placeholder="请输入账号"  bindinput="getUsernameValue" class="login_form__input"/>
+        </view>
+        <view class="login_form__item">
+            <input type="password" placeholder="请输入密码" bindinput="getPasswordValue" class="login_form__input" />
+        </view>
+        <view class="login_form__item">
+            <button bindtap="login_Username_Button" class="page_button flex center" style="padding:0; width: 630rpx;">
+                登录
+            </button>
+        </view>
+    </view>
+    <!-- form -->
+
+</block>
+<!-- 登录 -->
+<!-- other -->
+<view class="login_other">
+    <view class="login_other__column">您也可以用以下方式注册</view>
+    <view class="box flex center">
+        <view class="login_other__mobile" bindtap="login_register" >
+              <image src="/images/icon_zhuce.svg" class="login_other__icon" />
+              <view class="login_other__text">用户注册</view>
+        </view>
+      </view>
+</view>

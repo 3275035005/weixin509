@@ -1,0 +1,53 @@
+<!-- form -->
+<view class="page_form" style="margin-top: 16rpx; margin-bottom: 32rpx;">
+
+  <!-- item -->
+  <view class="page_form__item flex">
+    <view class="page_form__title">计划名称</view>
+    <view class="page_form__content">
+      <input type="text" placeholder="请输入计划名称" class="page_form__input" model:value="{{title}}" placeholder-class="placeholder" />
+    </view>
+  </view>
+  <!-- item -->
+
+  <!-- item -->
+  <view class="page_form__item flex">
+    <view class="page_form__title">计划完成</view>
+    <view class="page_form__content">
+      <input type="number" placeholder="请输入计划完成单词量" class="page_form__input" model:value="{{completeWord}}" placeholder-class="placeholder" />
+    </view>
+  </view>
+
+  <view class="page_form__item flex">
+    <view class="page_form__title">计划类型</view>
+    <view class="page_form__content">
+      <picker value="{{typeIndex}}" range="{{typeList}}" range-key="{{'title'}}" bindchange="typeChange" class="page_form__input" placeholder-class="placeholder" style="border-bottom: 2rpx solid #efefef">
+                {{typeList[typeIndex].title}}
+      </picker>
+    </view>
+  </view>
+  <view class="page_form__item flex">
+    <view class="page_form__title">题库名称</view>
+    <view class="page_form__content">
+      <picker value="{{lexiconIndex}}" range="{{lexiconList}}" range-key="{{'title'}}" bindchange="lexiconChange" class="page_form__input" placeholder-class="placeholder" style="border-bottom: 2rpx solid #efefef">
+                {{lexiconList[lexiconIndex].title}}
+      </picker>
+    </view>
+  </view>
+  <view class="page_form__item flex">
+    <view class="page_form__title">计划开始</view>
+    <view class="page_form__content">
+      <picker mode="date" value="{{startDate}}" bindchange="startDateChange" class="page_form__input" style="border-bottom: 2rpx solid #efefef">
+                {{startDate}}
+      </picker>
+    </view>
+  </view>
+
+</view>
+<!-- form -->
+
+<!-- button -->
+<view class="account_button">
+  <button class="page_button" bindtap="updateBtn" style="width: 686rpx;">创建计划</button>
+</view>
+<!-- button -->

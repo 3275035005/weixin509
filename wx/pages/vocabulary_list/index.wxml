@@ -1,0 +1,18 @@
+<view class="mw-page">
+  <view class="cu-list menu mw-menu">
+    <view class="cu-item arrow" wx:for="{{historyList}}" wx:key="index" bindtap="goToResult" data-id="{{item.wordName}}">
+      <view class='content'>
+        <text class='text-black'>{{item.wordName}}</text>
+      </view>
+      <view class='action'>
+        <text class='text-grey text-sm'>{{item.createTime}}</text>
+      </view>
+    </view>
+        <!-- nothing -->
+      <view class="page_nothing flex" wx:if="{{historyList == ''}}" style="text-align: center;">
+        <image class="page_nothing__icon" src="/images/page_nothing.svg" />
+        <view class="page_nothing__text">您还没有加入生词</view>
+    </view>
+    <!-- nothing -->
+  </view>
+</view>

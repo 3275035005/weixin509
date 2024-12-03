@@ -1,0 +1,41 @@
+<!-- form -->
+<view class="page_form">
+<view class="box">
+      <!-- item -->
+      <view class="item">
+    <view class="title">账号</view>
+    <view class="content">
+      <input type="text" value="{{username}}" disabled="true" placeholder="请填写您的账号" bindinput="getUsernameValue" placeholder-class="placeholder"/>
+    </view>
+  </view>
+  <!-- item -->
+       <!-- item -->
+       <view class="item">
+    <view class="title">密码</view>
+    <view class="content">
+      <input type="password" value="{{password}}"  placeholder="请填写您的密码" bindinput="getPasswordValue" placeholder-class="placeholder"/>
+    </view>
+  </view>
+  <!-- item -->
+  <!-- item -->
+  <view class="item">
+    <view class="title">手机号</view>
+    <view class="content">
+      <input type="text" value="{{phone}}"  placeholder="请填写手机号" bindinput="getPhoneValue" placeholder-class="placeholder"/>
+    </view>
+  </view>
+  <view class="item">
+    <view class="title">姓名</view>
+    <view class="content">
+      <input type="text" value="{{name}}"  placeholder="请填写姓名" bindinput="getNameValue" placeholder-class="placeholder"/>
+    </view>
+  </view>
+</view>
+</view>
+<!-- form -->
+
+<!-- btn -->
+<view class="page_button" style="margin:50rpx 50rpx 0rpx 50rpx">
+    <button size="default"  bindtap="sub">修改</button>
+</view>
+<!-- btn -->

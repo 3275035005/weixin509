@@ -1,0 +1,10 @@
+<view class="main">
+  <view class="column">
+		  <view class="column_title">近期学习情况</view>
+	</view>
+  <view class="container">
+    <ec-canvas id="myChart" canvas-id="myChart" ec="{{ec}}"></ec-canvas>
+  </view>
+
+
+</view>

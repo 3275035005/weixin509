@@ -1,0 +1,12 @@
+<view class="mw-page">
+  <view class="cu-list menu mw-menu">
+    <view class="cu-item arrow" wx:for="{{list}}" wx:key="index" bindtap="goToResult" data-id="{{item.id}}">
+      <view class='content'>
+        <text class='text-black'>{{item.title}}</text>
+      </view>
+      <view class='action'>
+        <text class='text-grey text-sm'>{{item.count}}</text>
+      </view>
+    </view>
+  </view>
+</view>

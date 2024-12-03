@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/study_plan/index",
+
+    "pages/curve/index",
+
+    "pages/word_info/index",
+    "pages/feedback_list/index",
+    "pages/feedback_detail/index",
+    "pages/lexicon_detail/index",
+    "pages/review/index",
+    
+    "pages/word/word",
+    "pages/personage/index",
+    "pages/vocabulary_list/index",
+    "pages/magazine_classified_list/index",
+    "pages/magazine_list/index",
+    "pages/magazine_detail/index",
+    "pages/subscription/index",
+    "pages/lexicon_list/index",
+  
+    "pages/login/index",
+    "pages/register/index",
+    "pages/feedback/feedback",
+    "pages/myself/myself",
+    "pages/study_plan_send/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "英语词典",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+        {
+            "pagePath": "pages/home/index",
+            "text": "首页",
+            "iconPath": "images/tabbar/home.png",
+            "selectedIconPath": "images/tabbar/home (1).png"
+        },
+        {
+            "pagePath": "pages/myself/myself",
+            "text": "我的",
+            "iconPath": "images/tabbar/me.png",
+            "selectedIconPath": "images/tabbar/me(1).png"
+        }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

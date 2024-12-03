@@ -1,0 +1,78 @@
+.card-item {
+  background-color: var(--color-white);
+  margin: 20rpx;
+  border-radius: 10rpx;
+  position: relative;
+}
+
+.card-item .item-content {
+  display: flex;
+  padding: 20rpx;
+  position: relative;
+}
+
+.left-box{
+  width: 65rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.right-box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 20rpx;
+}
+
+.right-box .floor {
+  font-weight: bold;
+}
+
+.right-box .desc {
+  font-size: 28rpx;
+  margin: 5rpx 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.van-tag1{
+  margin-left: 500rpx;
+}
+.right-box .date {
+  font-size: 28rpx;
+  color: var(--color-text-second);
+  margin-top: 5rpx;
+}
+
+.card-item .item-footer {
+  font-size: 28rpx;
+  padding: 20rpx;
+  text-align: right;
+  color: var(--color-btn-info);
+}
+
+.item-footer>text {
+  margin-left: 20rpx;
+}
+
+.confirm-text-btn {
+  color: var(--color-btn-primary);
+}
+
+.delete-text-btn {
+  color: var(--color-btn-danger);
+}
+
+.level-tag {
+  font-size: 20rpx;
+  color: var(--color-white);
+  padding: 5rpx 10rpx;
+  border-radius: 0 999px 999px 0;
+  display: inline-block;
+  background-color: var(--color-btn-danger);
+  position: absolute;
+  top: 20rpx;
+  left: 0;
+}

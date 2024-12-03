@@ -1,0 +1,34 @@
+/* --- logo --- */
+.login_logo{height: 200rpx; color: blue; font-size: 3rem;}
+.flex{display: flex; align-items: center; flex-wrap: wrap;}
+.center{justify-content: center;}
+
+
+/* --- form --- */
+.login_form{padding: 0 60rpx;}
+.login_form__item{height: 112rpx;}
+
+/* input */
+.login_form__input{height: 100%;font-size: 30rpx; border-bottom: 2rpx solid #efefef;}
+.login_form__input:active{border-bottom: 2rpx solid #ddd;}
+
+/* button */
+.page_button{margin-top: 40rpx;}
+.page_button.weixin{background: linear-gradient(to bottom, #2AAE67 , #2DBC6F); }
+
+
+
+
+/* --- other --- */
+.login_other{padding: 0 60rpx; text-align: center; font-size: 25rpx; color: #ccc; margin-top: 15%;}
+.login_form__item{position: relative;}
+.login_other__column::before{content: "——"; margin-right: 32rpx; color: #ccc; }
+.login_other__column::after{content: "——"; margin-left: 32rpx; color: #ccc; }
+.login_other__icon{width: 80rpx; height: 80rpx; margin-top: 40rpx;}
+.login_other__text{color: #666;}
+.getcode{position: absolute; right: 0; top: 0; line-height: 112rpx; font-size: 25rpx; color: #558BFB; z-index: 999;}
+.login_other__mobile{padding: 0 32rpx;}
+
+/* --- 版权 --- */
+.login-copyright{text-align: center; position: absolute; bottom: 50rpx; text-align: center; width: 100%; 
+  font-size: 22rpx; color: #ccc; left: 0;}

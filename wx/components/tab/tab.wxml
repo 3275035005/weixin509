@@ -1,0 +1,11 @@
+<scroll-view class="tabs"
+  style="--bgColor: {{bgColor}}; --textColor: {{textColor}}; --activeColor: {{activeColor}}; --fontSize: {{fontSize}}; --textAlign: {{textAlign}}; --lrPadding: {{lrPadding}}; --fontWeight: {{fontWeight}}; --activeLineHeight: {{activeLineHeight}}; --activeLineWidth: {{activeLineWidth}};"
+  scroll-with-animation scroll-x="true" scroll-left="{{scrollLeft}}">
+  <block wx:for="{{tabList}}" wx:key="index">
+    <view class="tabs__tab-item {{currentIndex == index ? 'tabs__tab-item--active' : ''}}" data-index="{{index}}"
+      bindtap="selectTab">
+      <view class="tabs__tab-item-text">{{item.name}}</view>
+      <view class="tabs__tab-item-bottom-line" wx:if="{{currentIndex == index}}"></view>
+    </view>
+  </block>
+</scroll-view>

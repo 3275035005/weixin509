@@ -1,0 +1,42 @@
+<!-- list -->
+<view class="allowance_list" wx:if="{{wordData.wordName != null}}">
+  <view wx:if="{{wordData.vocabularyId == null}}">
+      <button class="btn" hover-class="none" bindtap="addVocabulary">+加入生词本</button>
+  </view>
+  <view wx:else>
+      <button class="btn1" hover-class="none" bindtap="delVocabulary">-删除生词本</button>
+  </view>
+  <view class="allowance_item">
+  <view class="title">
+      单词
+   </view>
+  <view class="row">{{wordName}} </view>
+ </view>
+ <view class="allowance_item">
+  <view class="title">
+      释义
+   </view>
+  <view class="row" wx:if="{{wordData.paraphrase1 != null}}">{{wordData.paraphrase1}} </view>
+  <view class="row" wx:if="{{wordData.paraphrase2 != null}}">{{wordData.paraphrase2}} </view>
+ </view>
+ <view class="allowance_item">
+  <view class="title">
+      音标
+   </view>
+  <view class="row">
+      <text> {{wordData.soundmark}}</text>
+        <image src="/images/bf.svg" wx:if="{{isPlayUk && wordData.voice != null}}" bindtap="audioPauseUk" style="height: 50rpx;width: 50rpx;"></image>
+        <image src="/images/bfz.svg" wx:elif="{{!isPlayUk && wordData.voice != null}}"  style="height: 50rpx;width: 50rpx;"></image>
+   </view>
+   
+ </view>
+ <view class="allowance_item" wx:if="{{wordData.phrase != null}}">
+  <view class="title">
+      短语
+   </view>
+  <view class="row">
+      {{wordData.phrase}}
+   </view>
+   
+ </view>
+</view>

@@ -1,0 +1,33 @@
+<!--首页页面-->
+<view>
+  <image src="/images/body.png" mode="widthFix" style="width: 100%;"></image>
+</view>
+<view class='home_ZhongBu'>
+  <view class='home_ZhongBu_zong'>
+    <image class="home_ZhongBu_image1" bindtap="home_bingtap_image1" src='/images/搜索.png' />
+    <text bindtap="home_bingtap_image1" class="home_ZhongBu_text">词典搜索</text>
+  </view>
+  <view class='home_ZhongBu_zong'>
+    <image class="home_ZhongBu_image2" bindtap="home_bingtap_image2" src='/images/列表.png' />
+    <text bindtap="home_bingtap_image2" class="home_ZhongBu_text">我的生词本</text>
+  </view>
+  <view class='home_ZhongBu_zong'>
+    <image class="home_ZhongBu_image3" bindtap="home_bingtap_image3" src='/images/问题收集.png' />
+    <text bindtap="home_bingtap_image3" class="home_ZhongBu_text">外刊新闻</text>
+  </view>
+</view>
+<view class='home_ZhongBu'>
+ 
+  <view class='home_ZhongBu_zong' bindtap="home_bingtap_image4">
+    <image class="home_ZhongBu_image2"  src='/images/问卷调查.png' />
+    <text class="home_ZhongBu_text">选择词库</text>
+  </view>
+  <view class='home_ZhongBu_zong' bindtap="home_bingtap_image5">
+    <image class="home_ZhongBu_image3"  src='/images/管理员.png' />
+    <text  class="home_ZhongBu_text">学习计划</text>
+  </view>
+  <view class='home_ZhongBu_zong'  bindtap="home_bingtap_image6">
+    <image class="home_ZhongBu_image3" src='/images/建议.png' />
+    <text class="home_ZhongBu_text">单词复习</text>
+  </view>
+</view>

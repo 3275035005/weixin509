@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "学习计划",
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas"
+  }
+}

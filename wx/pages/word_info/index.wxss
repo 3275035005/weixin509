@@ -1,0 +1,40 @@
+page{background: #F4F6FA;}
+/* --- list --- */
+.allowance_list{padding: 32rpx; background: #fff;  border-radius: 32rpx;}
+.allowance_item .title{font-size: 50rpx; font-weight: bold;margin-bottom: 20rpx;}
+.allowance_item{border-bottom: 3rpx dashed rgba(226, 224, 224, 0.979); margin-top: 30rpx;}
+.allowance_item .row{font-size: 30rpx; margin-bottom: 10rpx;}
+.allowance_list .btn{border-radius: 30rpx;color: rgb(255, 255, 255); float: right;font-size: 30rpx;background-color: rgb(59, 59, 231);}
+.allowance_list .btn1{border-radius: 30rpx;color: rgb(255, 255, 255); float: right;font-size: 30rpx;background-color: rgb(192, 192, 192);}
+.top {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 5rpx solid rgba(226, 224, 224, 0.979)
+}
+  
+.topsearch {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  padding: 2% 0;
+  align-items: center;
+}
+  
+.frame {
+  background-color: rgba(245, 245, 245, 0.979);
+  width: 75%;
+  border-radius: 20rpx;
+  padding: 0 3%;
+}
+  
+.frame>input {
+  font-size: 24rpx;
+  margin: 6rpx 0;
+}
+  
+.topsearch>text {
+  width: 10%;
+  margin-left: 5%;
+  color: #103af1fa;
+  
+}

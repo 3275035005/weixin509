@@ -1,0 +1,56 @@
+.notice-container {
+  margin-bottom: 20rpx;
+}
+
+input, textarea {
+  background-color: #f6f6f6;
+  padding: 10rpx;
+  color: var(--color-text-second);
+}
+
+.apply-item {
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-white);
+}
+
+.in-1,
+.in-4 {
+  width: 250rpx;
+  border-radius: 10rpx;
+  text-align: center;
+}
+
+.text-dorm {
+  margin: 0 20rpx;
+}
+
+.in-2,
+.in-3 {
+  width: 120rpx;
+  border-radius: 10rpx;
+  text-align: center;
+}
+
+.apply-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--color-white);
+}
+
+.apply-desc>text {
+  margin-bottom: 20rpx;
+}
+
+.in-5 {
+  border-radius: 10rpx;
+  height: 150rpx;
+  width: 100%;
+}
+
+/* --- button --- */
+.account_button{margin: 64rpx 32rpx;}
+.account_button button{padding: 0;}

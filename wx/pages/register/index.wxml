@@ -1,0 +1,34 @@
+<!-- logo -->
+<view class="login_logo flex center">
+  英语词典小程序
+</view>
+<!-- logo -->
+
+
+<!-- 注册 -->
+<block>
+
+    <!-- form -->
+    <view class="login_form">
+      
+        <view class="login_form__item">
+            <input type="number" placeholder="请输入姓名"  bindinput="getNameValue" class="login_form__input"/>
+        </view>
+        <view class="login_form__item">
+            <input type="number" placeholder="请输入手机号"  bindinput="getPhoneValue" class="login_form__input"/>
+        </view>
+        <view class="login_form__item">
+            <input type="number" placeholder="请输入账号"  bindinput="getUsernameValue" class="login_form__input"/>
+        </view>
+        <view class="login_form__item">
+            <input type="password" placeholder="请输入密码" bindinput="getPasswordValue" class="login_form__input" />
+        </view>
+        <view class="login_form__item">
+            <button bindtap="register_button" class="page_button flex center" style="padding:0; width: 630rpx;">
+                注册
+            </button>
+        </view>
+  
+    </view>
+</block>
+<!-- 注册 -->

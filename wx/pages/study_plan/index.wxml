@@ -1,0 +1,54 @@
+<!-- 向上的图标-->
+<view class="side" bindtap="DevTuchCall" wx:if="{{current ===0}}">
+  <view class="add">+</view>
+</view>
+
+<!-- tab -->
+<view class="page_tab flex fore">
+
+<!-- item -->
+<view class="page_tab__item {{current == index?'active':''}}" wx:for="{{cash_tab}}" wx:key="index" data-index="{{index}}" bindtap="cash_tab__change">{{item}}</view>
+<!-- item -->
+
+</view>
+<!-- tab -->
+<!-- list -->
+<view class="cash_list" wx:if="{{current ===0}}">
+
+  <!-- item -->
+  <view class="cash_item shadow" wx:for="{{item}}" wx:key="index" wx:if="{{item !== ''}}">
+    <view class="cash_top flex">
+      <view class="cash_top__id">{{item.title}}<text wx:if="{{item.type == '1'}}">【周计划】</text> <text wx:if="{{item.type == '2'}}">【日计划】</text></view>
+      <view class="cash_top__date">计划日期：{{item.startDate}}</view>
+    </view>
+    <view class="cash_box flex">
+      <view class="cash_box__item">
+        <view class="cash_box__text">已完成</view>
+        <view class="cash_box__num red">{{item.count == null ? 0 : item.count}}</view>
+      </view>
+      <view class="cash_box__item">
+        <view class="cash_box__text">计划完成</view>
+        <view class="cash_box__num">{{item.completeWord}}</view>
+      </view>
+    </view>
+    <view class="cash_bottom flex">
+               <view class="cash_bottom__state yes" wx:if="{{item.status == '1'}}">已完成</view>
+               <view class="cash_bottom__state no" wx:if="{{item.status == '0'}}">未完成</view>
+     </view>
+  </view>
+  <!-- item -->
+
+
+</view>
+
+
+<view class="main" wx:else>
+  <view class="column">
+		  <view class="column_title">近期学习情况</view>
+	</view>
+  <view class="container">
+    <ec-canvas id="myChart" canvas-id="myChart" ec="{{ec}}"></ec-canvas>
+  </view>
+
+
+</view>

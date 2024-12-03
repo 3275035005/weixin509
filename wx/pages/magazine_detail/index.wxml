@@ -1,0 +1,27 @@
+<!-- title -->
+<view class="notice_title">
+    {{dataVo.title}}
+</view>
+<!-- title -->
+<view wx:if="{{dataVo.subscriptionId == null}}" bindtap="isSubscription">
+        <image src="/images/sc.svg" class="user_panel__icon" />
+        <text>订阅</text>
+</view>
+<view wx:else bindtap="noSubscription">
+        <image src="/images/qx.svg" class="user_panel__icon" />
+        <text>取消订阅</text>
+</view>
+<!-- content -->
+<view class="notice_time" >
+   
+    <view>
+        发布时间：{{dataVo.createTime}}
+    </view>
+    
+  
+</view>
+<!-- content -->
+<view>
+  <rich-text nodes="{{content}}"></rich-text>
+</view>
+<!-- content -->

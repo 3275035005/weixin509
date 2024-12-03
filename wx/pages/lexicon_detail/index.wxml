@@ -1,0 +1,14 @@
+<view>
+  <view class="container">
+  <view class="text-container" bindtap="selectWordName">
+    <view style="font-size: 50rpx;color: rgb(0, 68, 255);">{{list[index].wordName}}</view>
+    <view style="font-size: 40rpx;">{{list[index].soundmark}}</view>
+  </view>
+  <view class="buttons-container">
+    <button class="page_button_left" bindtap="no">不认识</button>
+    <button class="page_button_right"  bindtap="yes">认识</button>
+  </view>
+</view>
+</view>
+<image class='prev arrow' bindtap='prevImg' src='/images/left.svg' />
+  <image class='next arrow' bindtap='nextImg' src='/images/right.svg' />

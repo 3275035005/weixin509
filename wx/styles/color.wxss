@@ -1,0 +1,79 @@
+page {
+  
+  /* 文字 */
+  --color-text-second: #969799;
+  
+  /* 边框 */
+  --color-border: rgba(0, 0, 0, .1);
+
+  /* 按钮颜色 */
+  --color-btn-primary: #07c160;
+  --color-btn-info: #1989fa;
+  --color-btn-warning: #ff976a;
+  --color-btn-danger: #ee0a24;
+  --color-btn-cancel: #ccc;
+
+  /* 按钮渐变色 */
+  --color-primary-gradient: linear-gradient(to bottom, #00CC33, #00CC00);
+  --color-info-gradient: linear-gradient(to bottom, #0066FF, #0066CC);
+  --color-danger-gradient: linear-gradient(to bottom, #ee0a24, #bd051b);
+  --color-warning-gradient: linear-gradient(to bottom, #ff976a, #fa7b44);
+  --color-cancel-gradient: linear-gradient(to bottom, #CCCCCC, #BBBBBB);
+
+  /* 标准色 深色 */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-red: #e54d42;
+  --color-orange: #f37b1d;
+  --color-yellow: #fbbd08;
+  --color-olive: #8dc63f;
+  --color-green: #39b54a;
+  --color-cyan: #1cbbb4;
+  --color-blue: #0081ff;
+  --color-purple: #6739b6;
+  --color-mauve: #9c26b0;
+  --color-pink: #e03997;
+  --color-brown: #a5673f;
+  --color-grey: #8799a3;
+  --color-darkGray: #666666;
+  --color-gray: #aaaaaa;
+  --color-ghostWhite: #f1f1f1;
+
+  /* 浅色 */
+  --color-redLight: #fadbd9;
+  --color-orangeLight: #fde6d2;
+  --color-yellowLight: #fef2ce;
+  --color-oliveLight: #e8f4d9;
+  --color-greenLight: #d7f0db;
+  --color-cyanLight: #d2f1f0;
+  --color-blueLight: #cce6ff;
+  --color-purpleLight: #e1d7f0;
+  --color-mauveLight: #ebd4ef;
+  --color-pinkLight: #f9d7ea;
+  --color-brownLight: #ede1d9;
+  --color-greyLight: #e7ebed;
+
+  /* 渐变色 */
+  --color-gradualRed: linear-gradient(45deg, #f43f3b, #ec008c);
+  --color-gradualOrange: linear-gradient(45deg, #ff9700, #ed1c24);
+  --color-gradualGreen: linear-gradient(45deg, #39b54a, #8dc63f);
+  --color-gradualPurple: linear-gradient(45deg, #9000ff, #5e00ff);
+  --color-gradualPink: linear-gradient(45deg, #ec008c, #6739b6);
+  --color-gradualBlue: linear-gradient(45deg, #0081ff, #1cbbb4);
+
+  /* 阴影透明色 */
+  --color-redShadow: rgba(204, 69, 59, 0.2);
+  --color-orangeShadow: rgba(217, 109, 26, 0.2);
+  --color-yellowShadow: rgba(224, 170, 7, 0.2);
+  --color-oliveShadow: rgba(124, 173, 55, 0.2);
+  --color-greenShadow: rgba(48, 156, 63, 0.2);
+  --color-cyanShadow: rgba(28, 187, 180, 0.2);
+  --color-blueShadow: rgba(0, 102, 204, 0.2);
+  --color-purpleShadow: rgba(88, 48, 156, 0.2);
+  --color-mauveShadow: rgba(133, 33, 150, 0.2);
+  --color-pinkShadow: rgba(199, 50, 134, 0.2);
+  --color-brownShadow: rgba(140, 88, 53, 0.2);
+  --color-greyShadow: rgba(114, 130, 138, 0.2);
+  --color-grayShadow: rgba(114, 130, 138, 0.2);
+  --color-blackShadow: rgba(26, 26, 26, 0.2);
+}

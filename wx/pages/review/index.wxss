@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh; /* 使容器的高度为视口的100% */
+}
+ 
+.text-container {
+  flex: 1; /* 这会使文本区域占据中间的空间 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* 文本垂直居中 */
+  align-items: center; /* 文本水平居中 */
+}
+ 
+.button-container {
+  display: flex;
+  justify-content: center; /* 按钮水平居中 */
+}
+
+.page_button_left{float: left;width: 300rpx; background: #fcc245; color: #fff; border-radius: 20rpx; height: 100rpx; line-height: 100rpx; padding: 0; font-weight: 400; font-size: 28rpx;}
+
+.page_button_right{float: right;width: 300rpx; background: #45e7fc; color: #fff; border-radius: 20rpx; height: 100rpx; line-height: 100rpx; padding: 0; font-weight: 400; font-size: 28rpx;}
+.arrow{
+  width: 30rpx;
+}
+
+.prev{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+
+.next{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}

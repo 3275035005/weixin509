@@ -1,0 +1,17 @@
+<!-- 通告栏 -->
+<view class="notice-container">
+	<van-notice-bar left-icon="https://img.yzcdn.cn/public_files/2017/8/10/6af5b7168eed548100d9041f07b7c616.png"
+		text="请用户们如实填写问题反馈信息，问题反馈，问题反馈。" speed="40" />
+</view>
+
+<view class="apply-item apply-desc">
+	<text>反馈内容：</text>
+	<textarea class="in-5" placeholder="请输入反馈内容：" placeholder-style="color:#ccc;font-size:14px;" type="string"
+		maxlength="50" bindinput="setContent"></textarea>
+</view>
+
+    <!-- button -->
+    <view class="account_button">
+        <button class="page_button" bindtap="inApplyData" style="width: 686rpx;">提交反馈</button>
+    </view>
+    <!-- button -->
